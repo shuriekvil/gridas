@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+@import url(fonts.css);
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+}
+.block {
+    background-color: #212121;
+    display: flex;
+    border: 2px solid #E8D58C;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.block a {
+    font-family: forheader;
+    text-decoration: none;
+    text-transform: none;
+    color: #E8D58C;
+}
+.block1 {
+    grid-column-start:1 ;
+    grid-column-end: 5;
+}
+.block2 {
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}
+.block3 {
+    grid-column-start:4 ;
+    grid-column-end: 5;
+}
+.block4 {
+    grid-column-start:1 ;
+    grid-column-end: 2;
+}
+.block5 {
+    grid-column-start:2 ;
+    grid-column-end: 5;
+
+}
+.block6 {
+    
+}
+.block7 {
+}
+.block8 {
+}
+.block9 {
+}
